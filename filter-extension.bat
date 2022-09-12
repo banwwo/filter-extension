@@ -17,7 +17,6 @@ echo [*] target directory: %target%
 echo [*] files with: %extension% %secondExtension% %thirdExtension% %fourthExtension%
 echo.
 
-:do
 copy /Y %pwd%\%extension% %target%
 copy /Y %pwd%\%secondExtension% %target%
 copy /Y %pwd%\%thirdExtension% %target%
